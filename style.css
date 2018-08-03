@@ -1,0 +1,162 @@
+body {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0; 
+	padding: 0; 
+	width: 100%;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+	text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%; 
+	-webkit-text-size-adjust: 100%; 
+	line-height: 100%;
+	background-color: #F0F0F0;
+	color: #000000;
+	background-color: #F0F0F0;
+	font-family: sans-serif;
+}
+.center{
+	margin: 0 auto;
+}
+/*---------logo--------- */
+.logo-wrapper{
+	max-width: 560px;
+	width:100%;
+}
+.logo-td{
+	padding: 20px 6.25%;
+}
+.logo-wrapper a{
+	display: flex;
+}
+.logo-wrapper img{
+	height: 30px;
+	width: 100px;
+	color: #000;
+	margin: 0 auto;
+}
+/*-----------main-----------*/
+.main{
+	background-color: #FFF;
+	max-width: 560px;
+	width: 100%
+}
+.title-header{
+	padding: 25px 6.25% 0 6.25%;
+	width: 87.5%;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 130%;
+	font-family: sans-serif;
+	text-align: center;
+}
+.sub-header{
+	text-align: center;
+	padding: 5px 6.25% 3px 6.25%;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+.hero-wrapper{
+	padding-top: 20px;
+}
+.hero-img{
+	width: 100%;
+	max-width: 560px;
+}
+.para{
+	padding: 25px 6.25% 0 6.25%;
+	width: 87.5%;
+	font-size: 17px;
+	font-weight: 400;
+	font-family: sans-serif;
+	line-height: 160%;
+}
+.div-btn{
+	padding: 25px 6.25% 5px 6.25%;
+	width: 87.5%;
+}
+.table-btn{
+	max-width: 240px;
+	min-width: 120px;
+}
+.btn{
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background-color: #E9703E;
+	padding: 12px 24px;
+}
+.btn-link{
+	color: #FFF;
+	font-size: 17px;
+	font-family: sans-serif;
+	font-weight: 400;
+	line-height: 120%;
+}
+.div-hori{
+	padding: 25px 6.25% 0 6.25%;
+	width: 87.5%;
+}
+.horizontal{
+	color: #E0E0E0;		
+	width: 100%;
+}
+.list{
+	padding: 0 6.25%;
+}
+.div-list{
+	padding-top: 20px;
+	padding-right: 20px;
+}
+.img-list{
+	width: 50px;
+	height: 50px;
+}
+.list-title{
+	color: #333;
+}
+.para-list{
+	padding-top: 25px;
+	color: #000;
+	line-height: 160%;
+	font-size: 17px;
+	font-weight: 400;
+}
+.div-question{
+	line-height: 160%;
+	font-size: 17px;
+	font-weight: 400;
+	padding: 20px 6.25% 25px 6.25%;
+	text-align: center;
+}
+/*footer*/
+.footer{
+	max-width: 560px;
+	width:100%;
+}
+.div-social{
+	padding: 25px 6.25% 0 6.25%;
+}
+.table-social{
+	width: 256px;
+}
+.social{
+	padding: 0 10px;
+}
+.item{
+	height: 40px;
+	width: 40px;
+}
+.end-wrapper{
+	padding: 20px 6.25%;
+	width: 87.5%;
+	color: #999;
+	line-height: 150%;
+	font-size: 13px;
+	text-align: center;
+}
+.end-wrapper-link{
+	color: #999;
+	/*line-height: 150%;*/
+	font-size: 13px;	
+}

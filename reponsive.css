@@ -1,0 +1,8 @@
+@media screen (min-width: 560px){
+	.container{
+		border-radius: 8px;
+		-webkit-border-radius: 8px;
+	    -moz-border-radius: 8px;
+	    -khtml-border-radius: 8px;
+	}
+}
